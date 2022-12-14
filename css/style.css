@@ -1,3 +1,225 @@
-.container{
+body, html{
+    height: 100%;
+}
+/*the styling for the navbar*/
+nav{
+    background-color: black;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    font-family: 'Merriweather', serif;  
+}
+/*the styling for the footer*/
+.footer{
+    background:#000;
+    padding:5px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+  
+.footer a{
+    text-decoration:none;
+    color:white;
+    transition:0.5s;
+    padding: 20px;
+}
+/*the styling for the hero image and text*/    
+.hero_image{
+    background-image: url("../image/hero.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter: brightness(70%);
+}
+
+.hero_text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero_text h1{
+    font-family: 'Merriweather', serif;
+}
+
+.hero_text p{
+    font-family: 'Roboto Slab', serif;
+
+}
+/*the styling for the contact form*/
+form{
+    background-color: #000;
+}
+
+.contact_container{
+    height:50%;
+    width:50%;
+    margin: 0 auto;
     
+}
+
+label{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    display: block;
+}
+
+input[type=text], select, textarea{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+/*create a black border between the hero image and carousel as well the staff section*/
+.borders{
+    background-color: black;
+}
+/*darken the image for the hero and carousel images*/
+.darken{
+    filter: brightness(70%);
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+/*The styling for the staff section*/
+.staff_1{
+    background-image: url("../image/galleus.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.staff_2{
+    background-image: url("../image/fiorayne.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.staff_3{
+    background-image: url("../image/bahari.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.staff_4{
+    background-image: url("../image/chichae.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+.staff_5{
+    background-image: url("../image/oboro.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+.staff_6{
+    background-image: url("../image/minayle.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+.staff_7{
+    background-image: url("../image/arlow.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+.staff_8{
+    background-image: url("../image/luchika.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+.staff_9{
+    background-image: url("../image/jay.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+.staff_10{
+    background-image: url("../image/azuki.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+.staff_11{
+    background-image: url("../image/tadori.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+.staff_12{
+    background-image: url("../image/nagi.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+/*Changes the font-family for most of the text*/
+h5{
+    font-family: 'Merriweather', serif;
+}
+
+.captions{
+    font-family: 'Roboto Slab', serif;
+}
+
+.name{
+    font-family: 'Merriweather', serif;
+}
+
+.description{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
